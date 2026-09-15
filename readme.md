@@ -2,7 +2,7 @@
 
 Um Snake Game desenvolvido do zero com **HTML, CSS e JavaScript** usando a **Canvas API**.
 
-https://gotidadev.github.io/SnakeGame-js/
+[Clique aqui para jogar ](https://gotidadev.github.io/SnakeGame-js/)
 
 ## 🎮 Controles
 
