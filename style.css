@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  background-color: #1e1e1e;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+* {
+  font-family: "inter";
+  color: #fff;
+}
+.canvaContainer {
+  width: fit-content;
+  height: fit-content;
+  background-color: #2e2e2e;
+  padding: 15px;
+  border-radius: 15px;
+}
+.canvaContainer canvas {
+  background-color: #4e4e4e7b;
+  border-radius: 5px;
+  background-image:
+    linear-gradient(#333, 1px, transparent 1px),
+    linear-gradient(90deg, #333 1px, transparent 1px);
+  background-size: 25px 25px;
+}
+
+.StartContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: #494949;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 0;
+}
+.StartContainer.Active{
+    display: flex;
+}
+.StartContainer * {
+  margin: 4px;
+}
+.StartContainer .Start {
+  background-color: #007bff;
+  padding: 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+}
+.texts{
+    display: flex;
+    justify-content: space-between;
+}
